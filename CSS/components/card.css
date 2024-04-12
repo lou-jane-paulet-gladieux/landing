@@ -1,0 +1,49 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 700px;
+  align-items: center;
+  padding: 30px;
+  color: white;
+  border-radius: 4px;
+  background-color: #061E3C;
+  flex-grow: 1;
+}
+
+.card img {
+  width: 150px;
+  border-radius: 6px;
+}
+
+.card h3 {
+  font-size: 20px;
+  padding-left: 90px;
+}
+
+#logo-blue{
+  background-image: url("../../Images/elf-banner.jpeg");
+  object-fit: contain;
+  background-size: cover;
+  align-items: center;
+}
+
+#logo-purple {
+  background-image: url("../../Images/mage-banner.jpeg");
+  object-fit: contain;
+  background-size: cover;
+  align-items: center;
+}
+
+#logo-green {
+  background-image: url("../../Images/orc-banner.jpeg");
+  object-fit: contain;
+  background-size: cover;
+  align-items: center;
+}
+
+
